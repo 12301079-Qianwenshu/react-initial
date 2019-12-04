@@ -1,0 +1,64 @@
+{
+  "name": "react-initial",
+  "version": "1.0.0",
+  "description": "react-initial",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config webpack.dev.conf.js",
+    "build": "webpack --config webpack.prod.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12301079-Qianwenshu/react-initial.git"
+  },
+  "author": "wendyshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/12301079-Qianwenshu/react-initial/issues"
+  },
+  "homepage": "https://github.com/12301079-Qianwenshu/react-initial#readme",
+  "dependencies": {
+    "antd": "^3.23.1",
+    "axios": "^0.19.0",
+    "d3": "^3.*",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1",
+    "three": "^0.108.0"
+  },
+  "browserslist": [
+    "defaults",
+    "ie >= 10",
+    "last 2 versions",
+    "> 1%"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.12.1",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
