@@ -12,14 +12,7 @@ module.exports = merge(baseConfig, {
         // target:"http://172.16.10.34:8080",
         // target:"http://172.16.10.25:8805",
         target: '172.10.10.221:8007',
-        pathReWrite: { '^/': "" },
-        changeOrigin: true
-      },
-      '/socket.io': {
-        // target:"http://172.16.110.32:5000",
-        // target:"https://172.16.110.32:8082",
-        target: "http://172.16.12.5:5000",
-        pathReWrite: { '/v1': "" },
+        pathRewrite: { '^/': "" },
         changeOrigin: true
       }
     }
