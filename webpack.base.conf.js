@@ -92,6 +92,7 @@ module.exports = {
             'components': path.resolve("./src/components"),
             'containers': path.resolve("./src/containers"),
             'constants': path.resolve("./src/constants"),
+            'reduxs': path.resolve("./src/redux"),
             'api': path.resolve("./src/api/index.js")
         }
     },

@@ -1,4 +1,4 @@
-# react-initial
+# initial-fe-react
 
 项目依赖于nodejs，请安装nodejs 8.0以上版本运行项目。
 
@@ -11,15 +11,16 @@
 ### 项目目录
 
 - src （ 项目源码 ）
-  - actions （ 使用redux或mobx时定义的action ）
   - api （ 项目中接口地址配置 **注:项目中接口地址必须配置在此处，禁止在component中出现接口地址字符串常量** ）
   - components （ 公用组件 **项目中可共用的组件放在此处** ）
   - constants （ 全局常量定义 ）
   - containers （ 页面 ）
+  - redux （ 使用redux时写在此处 ）
+    + actions
+    + reducers
   - routes （ 路由 ）
   - service （ **原则上所有的请求均放在service中，并向外暴漏function，再由component调用service所暴露的function完成请求，其中对请求数据的处理都在service中完成，component中不包含处理数据的逻辑** ）
   - static （ 静态文件 ）
-  - store （ 使用redux或者mobx时store写在此处 ）
   - util （ 工具类 ）
     + resource.js （ 对axios进行封装以及拦截器配置 ）
     + utils.js （ **函数库：项目中通用的函数放在此处，如：时间戳格式转换，深拷贝实现等等** ）
@@ -44,6 +45,7 @@
       'components': path.resolve("./src/components"),
       'containers': path.resolve("./src/containers"),
       'constants': path.resolve("./src/constants"),
+      'reduxs': path.resolve("./src/redux"),
       'api': path.resolve("./src/api/index.js")
     }
 ```

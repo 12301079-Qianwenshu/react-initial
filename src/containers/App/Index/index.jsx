@@ -2,8 +2,8 @@
  * @Description: 
  * @Author: shuqianwen
  * @Date: 2019-09-06 18:20:31
- * @LastEditors: shuqianwen
- * @LastEditTime: 2019-12-04 14:26:28
+ * @LastEditors  : shuqianwen
+ * @LastEditTime : 2020-01-16 11:57:33
  */
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
@@ -16,9 +16,12 @@ class Index extends Component {
     }
 
     render() {
+
         return (
             <div className={style.index}>
-               欢迎来到react-initial~
+                <header>
+                    <h1>Welcome to React</h1>
+                </header>
             </div>
         )
     }
